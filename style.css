@@ -1,0 +1,23 @@
+
+.carousel-inner {
+    height: 500px;
+}
+.jumbotron {
+    background-color: rgb(190, 58, 51);
+    color: moccasin;
+    margin: 0;
+}
+.thumbnail-img {
+    display: block flex;
+    padding: 0;
+    margin: 5px;
+}
+
+.thumbnail {
+    display: flex;
+    width: 50%;
+}
+
+.thumbnail:hover {
+    opacity: 70%;
+}
