@@ -1,23 +1,57 @@
 
-.carousel-inner {
-    height: 500px;
-}
 .jumbotron {
     background-color: rgb(190, 58, 51);
     color: moccasin;
     margin: 0;
 }
-.thumbnail-img {
+
+.head-text {
+   position: absolute;
+   padding-left: 250px;
+}
+.head-img {
     display: block flex;
-    padding: 0;
-    margin: 5px;
+    height: 180px;
+    width: auto;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
-.thumbnail {
-    display: flex;
-    width: 50%;
+body{
+    background: rgb(40,0,0);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(70, 2, 2) 37%, rgba(164,0,0,1) 100%);
 }
 
-.thumbnail:hover {
+.carousel-inner {
+    position: relative;
+    height: 500px;
+}
+
+.row {
+    display: block flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-img {
+    display: block flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: rgb(209, 179, 134) 7px;
+    border-style: double;
+}
+.card-img img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto; 
+}
+.card-img img:hover {
     opacity: 70%;
 }

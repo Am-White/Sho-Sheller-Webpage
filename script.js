@@ -4,6 +4,9 @@ $('#myCarousel').on('slid.bs.carousel', function (e) {
   })
 
 
+
+
+  
   var searchAreaEl = $('#searchArea');
 
   var cocktailEl = $('#cocktails');
